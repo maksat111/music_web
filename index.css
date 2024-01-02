@@ -113,3 +113,71 @@ body{
 .pink-button{
     background-color: #fc0254 !important;
 }
+
+.second-section{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding: 105px 0;
+}
+
+.second-section-right{
+    width: 38vw;
+}
+
+.second-section > h2{
+    margin: 0;
+    width: 40vw;
+    font-size: 60px;
+    color: #0a183d;
+    font-weight: 600;
+}
+
+.second-section-right > p, .third-section-card > p{
+    font-size: 15px;
+    color: #6a7080;
+    line-height: 29px;
+    font-weight: 500;
+}
+
+.third-section{
+    padding: 105px 0;
+    background-image: url('./images/how-to-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.third-title {
+    color: white;
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.content{
+    margin: 0 auto;
+    max-width: 1176px;
+}
+
+.third-section-card-container{
+    display: flex;
+    gap: 30px;
+}
+
+.icon-container{
+    width: 57px;
+    height: 57px;
+    background-color: #fc0254;
+    border-radius: 100%;
+}
+
+.icon-container > img {
+    position: relative;
+    left: 30px;
+    top: 20px;
+}
+
+.third-section-card > h2{
+    color: white;
+    font-weight: 600;
+    font-size: 24px;
+}
