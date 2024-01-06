@@ -133,7 +133,7 @@ body{
     font-weight: 600;
 }
 
-.second-section-right > p, .third-section-card > p{
+.second-section-right > p, .third-section-card > p, .text-container>p {
     font-size: 15px;
     color: #6a7080;
     line-height: 29px;
@@ -180,4 +180,43 @@ body{
     color: white;
     font-weight: 600;
     font-size: 24px;
+}
+
+.fourth-section{
+    padding: 105px 0;
+}
+
+.text-container{
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.text-container > h2{
+    margin: 0;
+    font-size: 60px;
+    color: #08192d;
+    font-weight: 600;
+}
+
+.artists-cards-container{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 35px;
+}
+
+.artist-card{
+    padding: 0 15px;
+}
+
+.artist-card > img{
+    border-radius: 40px;
+    margin-bottom: 15px;
+}
+
+.artist-card > p{
+    margin: 0;
+    font-size: 18px;
+    color: #0a183d;
+    font-weight: 600;
 }
